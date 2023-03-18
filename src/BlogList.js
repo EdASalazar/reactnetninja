@@ -1,3 +1,5 @@
+import { blogs } from '../data/db.json'
+
 const BlogList = ({ blogs }) => {
   return (
     <div className="blog-list">
